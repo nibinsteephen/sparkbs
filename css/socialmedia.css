@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css?family=PT+Sans');
+
+body {
+	background-color: #303f56;	
+}
+
+.social {
+	margin: 0 auto;
+	width: 500px;
+	text-align: center;
+	padding: 10px;
+}
+
+.social h2 {
+	color: #86a5d6;
+	font-size: 40px;
+	font-family: 'PT Sans', sans-serif;
+}
+
+[class^="icon-btn"] /*.icon-btn*/ {
+	height: 75px;
+	width: 75px;
+	border: 0;
+	color: #fff;
+	cursor: pointer;
+	font-size: 40px;
+	line-height: 75px;
+	transition: ease-in-out .3s;
+	border-radius: 50px;
+	margin-left: 10px;
+	background-color: #fff;
+}
+
+
+.twitter {
+	color: #4099FF;
+}
+
+.gmail {
+	color: #54b151;
+}
+
+.instagram {
+	color: #5C3D2E;
+}
+
+.github {
+	color: #4183C4;
+}
+
+.icon-btn:hover {
+	transform: scale(1.10);	
+	color: #FFFFFF;
+}
+
+.twitter:hover {
+	background-color: #4099FF;	
+}
+
+.facebook:hover {
+	background-color: #3B5998;	
+}
+
+.gmail:hover {
+	background-color: #54b151;	
+}
+
+.instagram:hover {
+	background-color: #5C3D2E;	
+}
+
+.github:hover {
+	background-color: #4183C4;	
+}
+
+a.link {
+	color: inherit;	
+}

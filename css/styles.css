@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+
+/* NAvigation bar */
+#title {
+padding-top: 50px;
+padding-bottom: 50px;
+background: transparent;
+}
+
+#navbar {
+padding: 0 0 5px;
+}
+
+.bg-image {
+	/* The image used */
+	background-image: url("images/banksplash.webp");
+  
+	/* Add the blur effect */
+	filter: blur(8px);
+	-webkit-filter: blur(8px);
+  
+	/* Full height */
+	height: 100%;
+  
+	/* Center and scale the image nicely */
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+  }
+span{
+    color:white;
+}
+
+.nav-item {
+padding: 0 10px;
+}
+
+.inner {
+    width: 50%;
+  }
+
+.nav-link {
+font-size: 1.6rem;
+}
+
+.btn {
+    background-color: gainsboro;
+}
+
+.functions{
+height:200px;
+width:300px;
+padding-top: 70px;
+margin: 0 auto;
+}
+
+button{
+height: 100%;
+width: 100%;
+}
+
+.contain{
+height:200px;
+width:400px;
+background-color:lightgray;
+padding: 1%;
+margin: 0 auto;
+}
+
+.choose{
+    font-size:1.5rem;
+    color:#292b2c;
+    font-style:Ubuntu;
+    font-weight:bold
+}
+
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: sans-serif;
+}
+h2{
+	font-size: 40px;
+}
+table{
+	letter-spacing: 1.2px;
+}
+td{
+	text-align: center;
+}
+button{
+	border:none;
+	background: black;
+    transition: 1s;
+}
+@media only screen and (orientation: portrait){
+	*{
+		letter-spacing: 1px;
+	}
+}
+
+/* footer section */
+#footer {
+margin-top: 200px;
+padding: 5% auto;
+text-align: center;
+color: white;
+font-size: 25px;
+}
+
+.social-icon {
+margin: 10px 5px;
+color: white;
+}
+.social-icon:hover{
+cursor: pointer;
+padding:0 5px ;
+}
